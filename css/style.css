@@ -1,14 +1,13 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #191919 0%, #000000 100%);
+    color: white;
+}
+
 @media all and (max-width: 800px) {
-    body {
-        margin: 0;
-        background-image: linear-gradient(to right, #191919 0%, #000000 100%);
-        color: white;
-    }
-    
     /* Navigation */
     
     .logo {
-        color: white;
         font-size: 19px;
     }
     
@@ -29,15 +28,12 @@
         text-decoration: none;
         padding-left: 0;
     }
-
     
     .header__navbar-link {
         color: #f2f2f2;
         text-align: center;
         padding: 15px;
     }
-    
-    
     
     .social {
         display: flex;
@@ -64,16 +60,9 @@
 }
 
 @media all and (min-width: 800px) {
-    body {
-        margin: 0;
-        background-image: linear-gradient(to right, #191919 0%, #000000 100%);
-        color: white;
-    }
-    
     /* Navigation */
     
     .logo {
-        color: white;
         font-size: 22px;
     }
     
@@ -102,8 +91,6 @@
         text-align: center;
         padding: 15px;
     }
-    
-    
     
     .social {
         display: flex;
