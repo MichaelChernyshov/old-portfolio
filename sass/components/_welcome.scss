@@ -1,0 +1,24 @@
+@media all and (max-width: 800px) {   
+ .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+}
+}
+
+
+@media all and (min-width: 800px) {
+    .welcome-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        font-size: 3rem;
+    }
+}
