@@ -1,33 +1,58 @@
+@mixin underlined-poperty {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 1s;
+
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
+}
+
+@mixin undelined-animation {
+    text-decoration-color: white;
+
+    -webkit-text-decoration-color: white;
+    -moz-text-decoration-color: white;
+}
+
+@mixin letter-spacing-property {
+    letter-spacing: normal;
+    transition: 1s;
+}
+
+@mixin letter-spasing-animation {
+    letter-spacing: .2rem;
+}
+
 body {
     margin: 0;
     background-image: linear-gradient(to right, #191919 0%, #000000 100%);
     color: white;
 }
 
-// @mixin turninh-red {
-//     color: red;
-// }
-
-// .social:hover {
-//     @include turninh-red()
-// }
-
-@mixin underlined {
-    text-decoration: underline;
-}
-
 .header__navbar {
     background-image: linear-gradient(to right, #191919 0%, #000000 100%);
+
+    p {
+        @include underlined-poperty();
+        @include letter-spacing-property()
+    }
+
+    p:hover {
+        @include undelined-animation();
+        @include letter-spasing-animation()
+    }
 }
 
 .header__navbar-link {
     color: #f2f2f2;
     padding: 5px 15px;
-    text-decoration: none;
+    @include underlined-poperty();
+    @include letter-spacing-property();
 }
 
 .header__navbar-link:hover {
-    @include underlined()
+    @include undelined-animation();
+    @include letter-spasing-animation();
 }
 
 .header__navbar-flex-ul {
@@ -40,11 +65,22 @@ body {
     align-items: center;
     color: white;
     text-decoration: none;
+
+    svg {
+        padding-right: 8px;
+    }
+
+    span {
+        @include underlined-poperty();
+        @include letter-spacing-property();
+    }
 }
 
-.social svg {
-    padding-right: 8px;
+.social span:hover {
+        @include undelined-animation();
+        @include letter-spasing-animation();
 }
+
 
 
 @media all and (max-width: 420px) {   

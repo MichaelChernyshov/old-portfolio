@@ -7,15 +7,39 @@ body {
 .header__navbar {
   background-image: linear-gradient(to right, #191919 0%, #000000 100%);
 }
+.header__navbar p {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 1s;
+  -webkit-text-decoration-color: transparent;
+  -moz-text-decoration-color: transparent;
+  letter-spacing: normal;
+  transition: 1s;
+}
+.header__navbar p:hover {
+  text-decoration-color: white;
+  -webkit-text-decoration-color: white;
+  -moz-text-decoration-color: white;
+  letter-spacing: 0.2rem;
+}
 
 .header__navbar-link {
   color: #f2f2f2;
   padding: 5px 15px;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 1s;
+  -webkit-text-decoration-color: transparent;
+  -moz-text-decoration-color: transparent;
+  letter-spacing: normal;
+  transition: 1s;
 }
 
 .header__navbar-link:hover {
-  text-decoration: underline;
+  text-decoration-color: white;
+  -webkit-text-decoration-color: white;
+  -moz-text-decoration-color: white;
+  letter-spacing: 0.2rem;
 }
 
 .header__navbar-flex-ul {
@@ -29,9 +53,24 @@ body {
   color: white;
   text-decoration: none;
 }
-
 .social svg {
   padding-right: 8px;
+}
+.social span {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 1s;
+  -webkit-text-decoration-color: transparent;
+  -moz-text-decoration-color: transparent;
+  letter-spacing: normal;
+  transition: 1s;
+}
+
+.social span:hover {
+  text-decoration-color: white;
+  -webkit-text-decoration-color: white;
+  -moz-text-decoration-color: white;
+  letter-spacing: 0.2rem;
 }
 
 @media all and (max-width: 420px) {
