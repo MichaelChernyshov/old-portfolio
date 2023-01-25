@@ -162,10 +162,11 @@
   .card-v2 {
     position: relative;
     overflow: hidden;
-  }
-  .card-v2 img {
-    display: block;
-    width: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+    }
   }
   
   .card-v2__caption {
