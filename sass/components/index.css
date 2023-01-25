@@ -221,8 +221,7 @@ body {
   display: flex;
   width: 100%;
 }
-
-.card {
+.projects-section .card {
   width: 50%;
   padding: 5%;
 }
@@ -238,7 +237,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .card {
+  .projects-section .card {
     width: 85%;
   }
 }
@@ -390,13 +389,12 @@ img, video, svg {
   backdrop-filter: blur(10px);
 }
 
-a.card-v2 {
+a .card-v2 {
   display: block;
   text-decoration: none;
   transition: box-shadow 0.2s;
 }
-
-a.card-v2:hover {
+a .card-v2:hover {
   box-shadow: 0 0.9px 1.5px rgba(0, 0, 0, 0.03), 0 3.1px 5.5px rgba(0, 0, 0, 0.08), 0 14px 25px rgba(0, 0, 0, 0.12);
 }
 
