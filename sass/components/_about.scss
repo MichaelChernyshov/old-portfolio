@@ -11,9 +11,9 @@
 }
 
 .pers-img {
-    width: 250px;
-    height: 250px;
-    padding-right: 100px;
+    width: 17%;
+    height: 17%;
+    padding-right: 0px;
 }
 
 .description {
@@ -39,7 +39,7 @@
     }
 }
 
-@media all and (max-width: 620px) { 
+@media all and (max-width: 750px) { 
     .about-me {
         font-size: 20px;
     }
@@ -49,8 +49,8 @@
     }
 
     .pers-img {
-        width: 200px;
-        height: 200px;
+        width: 35%;
+        height: 35%;
         padding-right: 0;
     }
 }
