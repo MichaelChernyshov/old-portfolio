@@ -386,7 +386,7 @@ img, video, svg {
 }
 
 .card-v2--blur-fx .card-v2__caption {
-  background: hsla(var(--cy7-color-black-hsl), 0.8);
+  background: rgba(54, 54, 54, 0.8);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
